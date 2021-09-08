@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/stuck.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   <script src="js/jquery.js"></script>
   <script src="js/jquery-migrate-1.1.1.js"></script>
   <script src="js/script.js"></script>
@@ -54,6 +58,21 @@
       $('#stuck_container').tmStickUp({});
     });
   </script>
+  <style>
+    .logo-and-heading {
+      font-size: 5.5em;
+      font-weight: bolder;
+      font-family: 'Kaushan Script', cursive;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-only {
+
+      height: 130px;
+      width: auto;
+    }
+  </style>
   <!--[if lt IE 9]>
  <div style=' clear: both; text-align:center; position: relative;'>
    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -76,18 +95,20 @@
       <!--==============================
             Stuck menu
 =================================-->
-      <div class="container">
+      <div class="container ">
         <div class="row">
-          <div class="clear"></div>
-          <h1>
-            <a href="index.html">
-              <img src="images/logo.png" alt="Logo alt">
+          <div class="clear logo-head-clear-div"></div>
+          <h1 class="logo-and-heading">
+            <a class="logo-off" href="index.html">
+              <img class="logo-only" src="images/logo.png" alt="Logo alt">
             </a>
+            <div class="logo-off-text">ABAL<span style="color: red;">REALTY</span></div>
           </h1>
-          <h1 style="float: right; font-size: 6em; font-weight: bolder;">ABAL REALTY</h1>
-          <div class="clear"></div>
+          <div class="clear logo-head-clear-div"></div>
         </div>
       </div>
+      <div class="text-for-header-after header-contact-text"><span style="margin: auto;">M-80557879994</span><span
+          style="margin: auto;"> Email-sales@abalrealty.in</span></div>
       <div id="stuck_container">
         <div class="container">
           <div class="row">
@@ -108,6 +129,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </header>
     <div class="slider_wrapper ">
@@ -117,12 +139,12 @@
             Service to customers pre & post sales
           </div>
         </div>
-        <div data-src="images/banner/slide-1.jpg">
+        <div data-src="images/banner/slide-1.png">
           <div class="caption fadeIn">
             Committed timelines of project handover
           </div>
         </div>
-        <div data-src="images/banner/slide-2.jpg">
+        <div data-src="images/banner/slide-2.png">
           <div class="caption fadeIn">
             Developer financial background checks
           </div>
@@ -150,7 +172,7 @@
                 </p>
 
                 <br>
-                <a href="services.html" class="btn">More</a>
+                <a href="aboutus.html" class="btn">More</a>
               </div>
             </div>
             <div class="grid_6">
@@ -169,7 +191,7 @@
                 </p>
                 <br>
                 <br>
-                <a href="services.html" class="btn">More</a>
+                <a href="aboutus.html" class="btn">More</a>
               </div>
             </div>
           </div>
@@ -267,7 +289,9 @@
             <div class="box">
               <div class="maxheight">
                 <img src="images/services/small/commercial-space.jpg" alt="">
-                <div class="box_bot"><div class="text1">COMMERCIAL SPACES</div> <a href="services.html" class="fa fa-chevron-right"></a></div>
+                <div class="box_bot">
+                  <div class="text1">COMMERCIAL SPACES</div> <a href="services.html" class="fa fa-chevron-right"></a>
+                </div>
               </div>
             </div>
           </div>
@@ -275,7 +299,9 @@
             <div class="box">
               <div class="maxheight">
                 <img src="images/services/small/industrial-area.png" alt="">
-                <div class="box_bot"><div class="text1">INDUSTRIAL PARKS</div> <a href="services.html" class="fa fa-chevron-right"></a></div>
+                <div class="box_bot">
+                  <div class="text1">INDUSTRIAL PARKS</div> <a href="services.html" class="fa fa-chevron-right"></a>
+                </div>
               </div>
             </div>
           </div>
@@ -283,7 +309,9 @@
             <div class="box">
               <div class="maxheight">
                 <img src="images/services/small/it-sez.png" alt="">
-                <div class="box_bot"><div class="text1">IT/SEZ's</div> <a href="services.html" class="fa fa-chevron-right"></a></div>
+                <div class="box_bot">
+                  <div class="text1">IT/SEZ's</div> <a href="services.html" class="fa fa-chevron-right"></a>
+                </div>
               </div>
             </div>
           </div>
@@ -292,16 +320,20 @@
             <div class="box">
               <div class="maxheight">
                 <img src="images/services/small/co-working.png" alt="">
-                <div class="box_bot"><div class="text1">CO-WORKING</div> <a href="services.html" class="fa fa-chevron-right"></a></div>
+                <div class="box_bot">
+                  <div class="text1">CO-WORKING</div> <a href="services.html" class="fa fa-chevron-right"></a>
+                </div>
               </div>
-            </div>      
+            </div>
             <div class="clear ind__1"></div>
           </div>
           <div class="grid_4">
             <div class="box">
               <div class="maxheight">
                 <img src="images/services/small/integrated-town.png" alt="">
-                <div class="box_bot"><div class="text1">INTEGRATED TOWNSHIPS</div><a href="services.html" class="fa fa-chevron-right"></a></div>
+                <div class="box_bot">
+                  <div class="text1">INTEGRATED TOWNSHIPS</div><a href="services.html" class="fa fa-chevron-right"></a>
+                </div>
               </div>
             </div>
           </div>
@@ -309,7 +341,9 @@
             <div class="box">
               <div class="maxheight">
                 <img src="images/services/small/housing.png" alt="">
-                <div class="box_bot"><div class="text1">HOUSING</div> <a href="services.html" class="fa fa-chevron-right"></a></div>
+                <div class="box_bot">
+                  <div class="text1">HOUSING</div> <a href="services.html" class="fa fa-chevron-right"></a>
+                </div>
               </div>
             </div>
           </div>
@@ -338,7 +372,7 @@
               </div>
             </div>
           </div> -->
-          
+
         </div>
         <a href="services.html" class="btn">Learn More</a>
       </div>
